@@ -22,8 +22,11 @@ I got ${correctQuestions} out of ${totalQuestions} correct questions on "${quizN
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Dependencies
-- [Node](https://nodejs.org/en/) 10.16.0
-- [npm](https://www.npmjs.com/get-npm) 6.9.0
+- [Node.js](https://nodejs.org/en) 12.15.0
+- [npm](https://www.npmjs.com/get-npm) 6.13.4
+- [create-react-app](https://create-react-app.dev) 3.4.1
+- [prop-types](https://www.npmjs.com/package/prop-types) 15.7.2
+- [node-sass](https://www.npmjs.com/package/node-sass) 4.13.1
 
 
 ## Available Scripts
