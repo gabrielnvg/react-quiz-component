@@ -1,0 +1,11 @@
+.share-button {
+  margin: 0 10px;
+  text-decoration: none;
+  cursor: pointer;
+
+  @media(hover: hover) and (pointer: fine) {
+    &:hover {
+      opacity: 0.75;
+    }
+  }
+}

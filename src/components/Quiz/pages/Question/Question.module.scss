@@ -1,0 +1,26 @@
+.question {
+  //
+
+  .quiz-title {
+    margin: 20px 20px 0;
+    font-size: 15px;
+    line-height: 17px;
+    color: #ACACAC;
+  }
+
+  .question-img {
+    margin-top: 15px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .question-text {
+    margin: 15px 20px 0;
+    font-size: 20px;
+    line-height: 130%;
+  }
+
+  .alternatives {
+    margin: 20px 10px 15px;
+  }
+}

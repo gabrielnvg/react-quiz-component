@@ -1,0 +1,50 @@
+@mixin alternative-background-color($color) {
+  background-color: $color;
+  transition: background-color 0.5s ease;
+}
+
+@mixin alternative-focus-and-hover {
+  @include alternative-background-color(#d4ebff);
+}
+
+.alternative {
+  padding: 10px;
+  font-size: 16px;
+  line-height: 130%;
+  background-color: #f6f6f6;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+
+  &:not(:last-of-type) {
+    margin-bottom: 10px;
+  }
+
+  &:focus {
+    @include alternative-focus-and-hover;
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      @include alternative-focus-and-hover;
+    }
+  }
+
+  &.wrong {
+    @include alternative-background-color(#ffcece);
+  }
+
+  &.correct {
+    @include alternative-background-color(#bdf8ba);
+  }
+
+  &.not-chosen {
+    color: rgba(0, 0, 0, 0.3);
+    transition: color 0.5s ease;
+  }
+
+  &.current-question-answered {
+    pointer-events: none;
+    outline: none;
+  }
+}

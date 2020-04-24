@@ -1,0 +1,17 @@
+.quiz {
+  $shadow-size: 25px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: $shadow-size auto;
+  max-width: 620px;
+  font-family: Helvetica, Arial sans-serif;
+  font-size: 16px;
+  line-height: 130%;
+  box-shadow: 0px 0px $shadow-size rgba(0, 0, 0, 0.15);
+
+  .page {
+    width: 100%;
+  }
+}
