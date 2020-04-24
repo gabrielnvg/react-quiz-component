@@ -1,3 +1,6 @@
+## Demo
+https://react-quiz-component.surge.sh
+
 ## Usage
 - To customize the quiz (e.g. questions), edit the "quiz-data.js" file.
 - There is no maximum number of questions.
