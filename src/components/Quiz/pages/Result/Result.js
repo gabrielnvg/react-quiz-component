@@ -23,7 +23,7 @@ function Result({
   results.map((result, i) => {
     if (
       numCorrectAnswers >= result.range.from &&
-      numCorrectAnswers >= result.range.to
+      numCorrectAnswers <= result.range.to
     ) {
       chosenResult = results[i];
     }
