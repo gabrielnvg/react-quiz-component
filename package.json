@@ -27,7 +27,7 @@
     "eslint-plugin-react": "^7.19.0",
     "node-sass": "^4.13.1",
     "prettier": "^1.19.1",
-    "surge": "^0.21.3"
+    "surge": "^0.21.7"
   },
   "eslintConfig": {
     "extends": "react-app"
